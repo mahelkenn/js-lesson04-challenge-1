@@ -1,9 +1,25 @@
+// var mainTitle = document.querySelector("h1");
 
+// mainTitle.innerText = "Yay, JavaScript!";
 
-var mainTitle = document.querySelector("h1");
+// var body = document.querySelector('body');
 
-mainTitle.innerText = "Yay, JavaScript!";
+// body.style.background = "#FEF2F1";
 
-var body = document.querySelector('body');
+var firstListItem = document.querySelector("ul li");
 
-body.style.background = "#FEF2F1";
+firstListItem.style.textTransform = "uppercase";
+
+var moreReasons = document.querySelector(".more-reasons");
+
+moreReasons.style.fontSize = "2.5em";
+
+//second exercise --needs troubleshooting!!
+
+var whyJS = document.querySelector("h3");
+
+whyJS.innerHTML('Why learn <span class="highlight">JavaScript</span>?');
+
+var highlight = document.querySelector(".highlight");
+
+highlight.style.background = "#ffff82";
