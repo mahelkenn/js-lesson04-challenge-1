@@ -14,12 +14,19 @@ var moreReasons = document.querySelector(".more-reasons");
 
 moreReasons.style.fontSize = "2.5em";
 
-//second exercise --needs troubleshooting!!
+//second exercise
 
 var whyJS = document.querySelector("h3");
 
-whyJS.innerHTML('Why learn <span class="highlight">JavaScript</span>?');
+whyJS.innerHTML = 'Why learn <span class="highlight">JavaScript</span>?';
 
 var highlight = document.querySelector(".highlight");
 
 highlight.style.background = "#ffff82";
+
+//third exercise
+
+var mainImage = document.querySelector("img");
+
+mainImage.src = "/img/js-code.png";
+mainImage.alt = "JavaScript code example";
